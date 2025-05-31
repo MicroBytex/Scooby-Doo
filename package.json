@@ -1,0 +1,41 @@
+{
+  "name": "scooby-doo-bot",
+  "version": "1.0.0",
+  "description": "Un bot de WhatsApp multifuncional para grupos y uso personal.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "node.js",
+    "bot",
+    "scooby-doo"
+  ],
+  "author": "KaitoNeko",
+  "license": "MIT",
+  "dependencies": {
+    "@bochilteam/scraper": "^4.2.4",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@whiskeysockets/baileys": "^6.7.2",
+    "axios": "^1.7.2",
+    "axios-cache-interceptor": "^1.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.0",
+    "pino": "^9.2.0",
+    "qrcode": "^1.5.3",
+    "stream-to-buffer": "^0.1.0",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microbytex/Scooby-Doo.git"
+  }
+}
